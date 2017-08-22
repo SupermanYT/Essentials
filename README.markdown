@@ -1,5 +1,11 @@
-Essentials Development Readme
+SupermanEssentials
 =============================
+
+**********************************************************************************************
+Superman Notes: This is a personal project. One day it could be avaible for download! For now,
+I'm just into editing!
+**********************************************************************************************
+
 
 The official repository is at:
 https://github.com/essentials/Essentials
