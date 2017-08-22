@@ -115,7 +115,7 @@ public class Essentials extends JavaPlugin implements net.ess3.api.IEssentials
 
 	public Essentials(final Server server)
 	{
-		super(new JavaPluginLoader(server), new PluginDescriptionFile("Essentials", "", "com.earth2me.essentials.Essentials"), null, null);
+		super(new JavaPluginLoader(server), new PluginDescriptionFile("SupermanEssentials", "", "com.earth2me.essentials.Essentials"), null, null);
 	}
 
 	@Override
@@ -263,7 +263,7 @@ public class Essentials extends JavaPlugin implements net.ess3.api.IEssentials
 			final String timeroutput = execTimer.end();
 			if (getSettings().isDebug())
 			{
-				LOGGER.log(Level.INFO, "Essentials load {0}", timeroutput);
+				LOGGER.log(Level.INFO, "SupermanEssentials load {0}", timeroutput);
 			}
 		}
 		catch (NumberFormatException ex)
@@ -470,7 +470,7 @@ public class Essentials extends JavaPlugin implements net.ess3.api.IEssentials
 			//Print version even if admin command is not available #easteregg
 			if (commandLabel.equalsIgnoreCase("essversion"))
 			{
-				sender.sendMessage("This server is running Essentials " + getDescription().getVersion());
+				sender.sendMessage("This server is running SupermanEssentials " + getDescription().getVersion());
 				return true;
 			}
 
